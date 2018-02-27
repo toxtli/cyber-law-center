@@ -1,0 +1,308 @@
+.borderless tbody tr td, .borderless thead tr th {
+    border: none;
+}
+
+
+
+.btn {
+  font-size: 1.5em;
+    padding: 11px 30px 9px;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+
+}
+
+.btn-blue {
+  background-color: #0065c1;
+  color: #ffffff;
+  -webkit-transition: all .4s;
+     -moz-transition: all .4s;
+          transition: all .4s;
+}
+
+.btn-blue:hover,
+.btn-blue:focus,
+.btn-blue:active {
+  color: #ffffff;
+  background-color: #075198;
+}
+
+
+
+
+
+
+
+
+table.schedule-table tr td{
+	border: none;
+	font-family: 'Lato', sans-serif;
+	line-height:1em;
+	letter-spacing:0em;
+	padding:10px;
+}
+
+table.schedule-table *{
+	font-family: 'Lato', sans-serif;
+	line-height:1.1em;
+	letter-spacing:0em;
+}
+
+table.schedule-table td.time-mark {
+	padding-right:5px;
+	text-align:right;
+	vertical-align: top;
+	border-top: #aaa 1px solid;
+	color:#666;
+}
+
+table.schedule-table td.room-heading{
+  background-color: #666;
+  color: #fff;
+  font-size: 0.9em;
+  /*display: none;*/
+}
+
+table.schedule-table td.break{
+	padding:0px;
+	text-align:right;
+	vertical-align: middle;
+}
+
+table.schedule-table td.break div{
+	padding: 5px;
+		color:#555;
+}
+
+table.schedule-table .room{
+display: block;
+margin: 0px 0px;
+padding: 3px 0px;
+white-space: nowrap;
+vertical-align: baseline;
+border-radius: .25em;
+color:#666;
+font-size: 0.8em;
+/*display:none;*/
+}
+
+table.schedule-table div.event{
+	margin: 15px 0px;
+	padding-left: 2px;
+}
+
+table.schedule-table div.event-id{
+	color:#666;
+	font-size: 0.8em;
+}
+
+table.schedule-table a{
+	color:inherit;
+}
+
+table.schedule-table td.full-day-workshop{
+	border: 0px #eee solid;
+	border-left:#d73e2a 2px solid;
+	background-color:#fffbfa;
+}
+
+table.schedule-table td.half-day-workshop{
+		border: 0px #eee solid;
+	border-left:#2477b4 2px solid;
+	background-color:#f9fbfe;
+}
+
+table.schedule-table td.tutorial{
+		border: 0px #eee solid;
+	border-left:#4ca02e 2px solid;
+	background-color:#eaf5eb;
+}
+
+table.schedule-table td.bloomberg{
+	border: 0px #eee solid;
+	border-left:#80007e 2px solid;
+	background-color:#fff9ff;
+}
+
+table.schedule-table td.meal{
+	border: 0px #eee solid;
+	border-left:#f3d6ba 2px solid;
+	background-color:#fff1e1;
+}
+
+table.schedule-table td.poster-demo{
+	border: 0px #eee solid;
+	border-left:#f3d6ba 2px solid;
+	background-color:#fff1e1;
+}
+
+table.schedule-table{
+	border-collapse: separate;
+	border-spacing: 0px 4px;
+}
+
+.table tbody>tr>td.vert-align-mid{
+    vertical-align: middle;
+}
+
+table.schedule-table td.full-day-workshop .heading{
+	color:#d73e2a;
+	/*font-weight:bold;*/
+	font-size: 1.5em;
+}
+
+table.schedule-table td.half-day-workshop .heading{
+	color:#2477b4;
+	/*font-weight:bold;*/
+	font-size: 1.5em;
+}
+
+table.schedule-table td.tutorial .heading{
+	color:#4ca02e;
+	/*font-weight:bold;*/
+	font-size: 1.5em;
+}
+
+table.schedule-table td.bloomberg .heading{
+	color:#80007e;
+	/*font-weight:bold;*/
+	font-size: 1.5em;
+}
+
+table.schedule-table td.meal .heading{
+	color:#db8352;
+	/*font-weight:bold;*/
+	font-size: 1.5em;
+}
+
+table.schedule-table tr td.no-top-border{
+	border-top: none;
+}
+
+table.schedule-table tr td.no-border{
+	border-left: none;;
+}
+
+table.schedule-table .line-above{
+	border-top: #aaa 1px solid;
+}
+
+table.schedule-table .line-below{
+	border-bottom: #aaa 1px solid;
+}
+
+table.schedule-table td.venue{
+	background-color:#333;
+	color:#FFF;
+	font-size:24px;
+	padding: 8px 10px 5px 10px;
+}
+
+table.schedule-table td.key-event{
+	vertical-align:middle; 
+	background-color:#db8352; 
+	color:#fff; 
+	padding:10px; 
+	font-size:1.5em;
+	border-left: 2px solid #ae3c16;
+}
+
+table.schedule-table td.key-event-too{
+	vertical-align:middle; 
+	background-color:#edb893; 
+	color:#fff; 
+	padding:10px; 
+	font-size:1.2em;
+	border-left: 2px solid #c7794f;
+}
+
+table.schedule-table td.gray{
+	border-left:#777 2px solid;
+	background-color:#f2f2f2;
+}
+
+
+table.schedule-table td.ig{
+	border-left:#d73e2a 2px solid;
+	background-color:#fffbfa;
+}
+
+table.schedule-table td.rt{
+	border-left:#2477b4 2px solid;
+	background-color:#f9fbfe;
+}
+
+
+table.schedule-table td.key-event-green{
+	border-left:#4ca02e 2px solid;
+	background-color:#eaf5eb;
+}
+
+
+table.schedule-table td.ig-invited{
+	border-left:#80007e 2px solid;
+	background-color:#fff9ff;
+}
+
+
+table.schedule-table .session-no{
+  font-size: 0.9em;
+  letter-spacing: 0em;
+  color: #666;
+}
+
+table.schedule-table .session-name{
+	font-size: 1.5em;
+  font-weight: bold;
+  color: #333;
+  letter-spacing: 0.03em;
+  padding-bottom: 20px;
+  line-height: 1.4em;
+}
+
+table.schedule-table .session-chair{
+  font-size: 1em;
+  letter-spacing: 0em;
+  color: #333;
+}
+
+table.schedule-table .session-best{
+  padding-top: 10px;
+  font-size: 0.7em;
+  letter-spacing: 0em;
+  width: 100%;
+  color: #666;
+  font-weight: bold;
+}
+
+table.schedule-table .session-best img{
+  float: left;
+  opacity: 0.6;
+}
+
+
+.title{
+	font-size:1.1em;
+  font-weight: bold;
+  color:#444;
+}
+
+.authors{
+  font-size: 1em;
+  margin-top:2px;
+  margin-bottom:18px;
+  color:#666;
+}
+
+
+h3 small{
+  color: #666;
+}
+
+
+
+.mugshot{
+  display: inline;
+  max-width: 30px;
+  height: auto;
+}
